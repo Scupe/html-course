@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title> Scooter-boom </title>
+    <meta charset="UTF-8">
+    <style>
+        .fig {
+        text-align: center;
+        }
+         </style>
+</head>
+<body>
+   
+    <h2>
+        <b>Усім привіт!</b>
+    </h2>
+    
+<br>
+
+    <h1 align="center">
+    <b>Мене звати Санченко Назар</b>
+</h1>
+<br>
+<h3 align="right">
+    <b>
+        Я студент грури ТЗ-11 
+    </b>
+</h3>
+<hr>
+<p>
+    За
+<a href="https://scooter-boom.com.ua/" target="_blank">
+<i>цим посиланням </i>
+</a>
+ви можете знайти цікаву інформацію про 
+                                     <b>Італійські запчастини для Скутерів </b> 
+                                                                               та 
+                                                                                 <b>Мотоциклів </b>
+                                                                                                    <i>в Україні.</i>
+</p>
+<br>
+<p>
+А цю картинку я побачив на просторах інтернету і хочу звами нею поділитися.
+</p>
+<br>
+<p class="fig">
+    <a href="https://scooter-boom.com.ua/modules/themeconfigurator/img/092fd47414e745dfd4d2ee5ed3d0abc4083efcc3_bar.jpg" target="_blank">
+    <img src="https://scooter-boom.com.ua/modules/themeconfigurator/img/092fd47414e745dfd4d2ee5ed3d0abc4083efcc3_bar.jpg" alt="Two-cylinder engine" >
+    </a>
+</p>
+<br>
+<p>
+Вона 
+   <b>клікабельна</b>
+                     і якщо 
+                        <b>по ній <i>клікнути,</i></b> 
+                                                      то можна перейти на сайт звідки її було взято .
+</p>
+</body>
+</html>
