@@ -1,0 +1,49 @@
+.conteiner{
+display: flex;
+color: white;
+flex-direction: column;
+
+
+}
+
+.box-4,.box-8,.box-12,.box-16,.box-19{
+    color: white;
+background-color: orange;
+}
+
+.input{
+    display: flex;
+    color: white;
+    background-color:gray;
+    flex: 4;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box-1,.box-2,.box-3{
+background-color: gray;
+color: white;
+}
+
+.box-5,.box-6,.box-7,.box-9,.box-10,.box-11,.box-13,.box-14,.box-15,.box-17,.box-18{
+    background-color: darkgray;
+    color: white;
+}
+.conteiner-1,.conteiner-2,.conteiner-3,.conteiner-4,.conteiner-5,.conteiner-6{
+    display: flex;
+}
+
+.box{
+    width: 32px;
+height: 32px;
+}
+
+.box-17{
+    width: 64px;
+    height: 32px;
+}
+
+.conteiner-1{
+    width: 128px;
+    height: 37px
+}
