@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: #1a313a;
+}
+
+.list__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 800px;
+  margin-top: 20px;
+}
+
+.list__item {
+  width: 100%;
+  height: 200px;
+  background:  #343232;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.list__item .dog__photo {
+  text-align: center;
+}
+
+.list__item .dog__photo img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.list__item .item__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+
+.list__item .item__info h2 {
+  font-weight: 800;
+}
+
+.modal__backdrop {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+.modal__backdrop.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal__backdrop .modal {
+  position: relative;
+  height: 100%;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #0d0c0c;
+}
+
+.modal__backdrop .modal .modal__image {
+  height: 50vh;
+  width: 100%;
+}
+
+.modal__backdrop .modal .modal__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.modal__backdrop .modal .modal__content {
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.line__gray {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #413e3e;
+  margin-top: 10px;
+}
+
+.modal__backdrop .modal .modal__content div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.label {
+  color: lightgray;
+  font-weight: 400;
+}
+
+.text {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.modal__content .caption h2 {
+  font-size: 3rem;
+}
+
+.modal__button {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+
+.modal__button button {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  background:  #7300e6;
+  font-weight: 800;
+  font-size: large;
+  cursor: pointer;
+}
